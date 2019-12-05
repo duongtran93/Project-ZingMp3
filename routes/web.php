@@ -11,10 +11,18 @@
 |
 */
 
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+
 Route::get('/', function () {
     return view('welcome');
 });
 
+<<<<<<< HEAD
+=======
+//Route::get('index','zingController');
+
+>>>>>>> 5059d2e1de28243167b54b4049d306724890735f
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
