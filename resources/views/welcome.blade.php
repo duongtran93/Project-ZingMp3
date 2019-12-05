@@ -67,8 +67,8 @@
     </style>
 </head>
 <body>
-<div class="flex-center position-ref full-height">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top" style="text-align: center">
+<div class=" position-ref">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="text-align: center">
         <img src="{{asset('storage/images/zingmp33.png')}}" alt="Zing mp3" style="width: 180px; height: 50px">
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="container">
@@ -203,8 +203,8 @@
                     </div>
                 </div>
             </div>
-            <div class="input-group">
-                <input type="text" name="search" placeholder="Nhập tên bài hát, ca sĩ, mv">
+            <div class="input-search">
+                <input class="" type="text" name="search" placeholder="Nhập tên bài hát, ca sĩ, mv">
             </div>
             <div class="container">
                 @if (Route::has('login'))
@@ -221,6 +221,9 @@
             </div>
         </div>
     </nav>
+</div>
+<div>
+    asdads
 </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
